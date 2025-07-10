@@ -13,6 +13,7 @@ header{
     background-image: url(Assets/Hero-bg.png);
     background-repeat: no-repeat;
     height: 698px;
+    margin-bottom: 80px;
 }
 nav{
     display: flex;
@@ -43,14 +44,14 @@ nav{
    text-align: center;
 }
 .banner-content{
-   padding-top: 100px;
+   padding-top: 80px;
 }
 .banner-content h1{
     font-size: 65px;
     padding-bottom: 30px;
 }
 .banner-content-btn{
-     width: 174px;
+    width: 174px;
     height: 48px;
     border: none;
     background-color: #4E47FF;
@@ -59,3 +60,4 @@ nav{
     font-weight:bold;
     border-radius: 10px;
 }
+

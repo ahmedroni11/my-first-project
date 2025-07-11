@@ -61,3 +61,45 @@ nav{
     border-radius: 10px;
 }
 
+/* -- ======== Action Section ======== -- */
+
+.action-section{
+    max-width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+    margin-bottom: 116px;
+}
+.action-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.action-text{
+    max-width: 500px;
+}
+.action-titel{
+    font-size: 42px;
+    color: #252432;
+}
+.action-description{
+    color: #474747;
+    font-size: 18px;
+    padding: 20px 0;
+}
+.action-btn{
+     width: 229px;
+    height: 48px;
+    border: none;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 18px;
+    font-weight:bold;
+    border-radius: 10px;
+}
+
+.action-imges img{
+    width: 403px; 
+    height: 328px;
+    border-radius: 48px;
+}

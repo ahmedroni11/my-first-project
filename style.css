@@ -103,3 +103,35 @@ nav{
     height: 328px;
     border-radius: 48px;
 }
+
+/* -- ==== Productive Users Section ==== -- */
+
+.productive-section{
+    max-width: 1140px;
+    height: 306px;
+    background-color: #E5E7FF;
+    margin: 0 auto;
+    border-radius: 24px;
+    margin-bottom: 130px;
+}
+
+.Productive-titel{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+.Productive-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Productive-content h3{
+    color: #4E47FF;
+    font-size: 5rem;
+    padding-top: 25px;
+}
+.Productive-content p{
+    color: #474747;
+    text-align: center;
+}

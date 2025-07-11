@@ -192,6 +192,13 @@ nav{
     padding: 30px;
     border-radius: 10px;
 }
+.users-feedback:hover{
+    background-color: #6ef195;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.8s;
+    color: #333;
+}
 .users-feedback i{
     color: #FFB805;
     padding-bottom: 20px;
@@ -316,6 +323,7 @@ textarea{
     padding-left: 20px;
     padding-top: 20px;
     margin: 15px 0;
+    width: 380px;
 }
 
 /* -- ===== Footer section ===== -- */
@@ -328,7 +336,7 @@ footer{
     text-align: center;
 }
 .footer-content{
-    width: 570px;
+    width: 590px;
     margin: 0 auto;
     text-align: center;
     padding-top: 70px;
@@ -345,6 +353,7 @@ footer{
 }
 .footer-menu{
     margin: 0 450px;
+    width: 600px;
 }
 .footer-menu ul {
     display: flex;

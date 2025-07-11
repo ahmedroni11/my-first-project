@@ -88,7 +88,7 @@ nav{
     padding: 20px 0;
 }
 .action-btn{
-     width: 229px;
+    width: 229px;
     height: 48px;
     border: none;
     background-color: #4E47FF;
@@ -134,4 +134,90 @@ nav{
 .Productive-content p{
     color: #474747;
     text-align: center;
+}
+
+/* -- ===== Users Feedback Section ===== -- */
+
+.users-feedback-section{
+    max-width: 1140px;
+    height: 342px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+.users-feedback-section h2{
+    font-size: 42px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.users-feedback-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.users-feedback{
+    align-items: center;
+    width: 270px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.users-feedback i{
+    color: #FFB805;
+    padding-bottom: 20px;
+}
+.users-feedback p{
+    color: #333;
+    padding: 10px 0;
+}
+.user-imges{
+    display: flex;
+    align-items: center;
+}
+.user-imges h4{
+    padding-left: 15px;
+}
+.user-imges img{
+    border-radius: 30px;
+}
+
+/* -- ===== Webflow Section ===== -- */
+
+.webflow-section{
+    max-width: 1140px;
+    height: 696;
+    margin: 0 auto;
+    padding-top: 61px;
+    padding-bottom: 70px;
+    margin-bottom: 92px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+.webflow-content{
+    text-align: center;
+}
+.webflow-titel{
+    font-size: 50px;
+    font-weight: bold;
+}
+.webflow-description{
+    color: #474747;
+    margin-top: 10px;
+}
+.webflow-btn{
+    width: 195px;
+    height: 48px;
+    border: none;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 18px;
+    font-weight:bold;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.Webflow-img{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
 }
